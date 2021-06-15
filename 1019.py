@@ -1,0 +1,5 @@
+valor = int(input())
+hr = int(valor/60/60)
+min = int((valor / 60) - (hr * 60))
+sec = int(valor - ((hr*60*60) + (min * 60)))
+print(str(hr)+':'+str(min)+':'+str(sec))
